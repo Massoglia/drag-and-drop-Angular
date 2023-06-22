@@ -15,6 +15,10 @@ export class TareaComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  drop(event: CdkDragDrop<string[]>) {
+    moveItemInArray(this.todo, event.previousIndex, event.currentIndex);
+  }
+
 
 
 }
