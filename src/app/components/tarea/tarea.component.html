@@ -1,10 +1,14 @@
 <div class="container mt-5">
   <div class="row">
-      <h1 class="text-center montserrat">TODO</h1>
+      <h1 class="text-center montserrat">TODO LIST</h1>
   </div>
 
-  <div cdkDropList (cdkDropListDropped)="drop($event)">
+<div class="row">
+  <div class="col-lg-4">
+    <h4 class="montserrat">To Do</h4>
+    <div cdkDropList class="example-list" (cdkDropListDropped)="drop($event)">
       <div class="example-box" *ngFor="let movie of movies" cdkDrag>{{movie}}</div>
     </div>
+  </div>
 </div>
 
