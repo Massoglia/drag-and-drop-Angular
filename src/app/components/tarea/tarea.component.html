@@ -12,9 +12,9 @@
       </div>
 
       <div class="col-lg-4">
-        <h4 class="montserrat">To Do</h4>
+        <h4 class="montserrat">In Progress</h4>
         <div cdkDropList class="example-list" (cdkDropListDropped)="drop($event)">
-          <div class="example-box" *ngFor="let item of todo" cdkDrag>{{item}}</div>
+          <div class="example-box" *ngFor="let item of progress" cdkDrag>{{item}}</div>
     </div>
   </div>
 </div>

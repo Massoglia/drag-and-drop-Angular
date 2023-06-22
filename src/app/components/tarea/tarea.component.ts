@@ -9,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class TareaComponent implements OnInit {
 
   todo: string[] = ['Programacion', 'Ingles', 'Testing Manual'];
+  progress: string[] = [];
 
   constructor() { }
 
