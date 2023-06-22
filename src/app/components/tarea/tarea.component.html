@@ -7,7 +7,7 @@
   <div class="col-lg-4">
     <h4 class="montserrat">To Do</h4>
     <div cdkDropList class="example-list" (cdkDropListDropped)="drop($event)">
-      <div class="example-box" *ngFor="let movie of movies" cdkDrag>{{movie}}</div>
+      <div class="example-box" *ngFor="let item of todo" cdkDrag>{{item}}</div>
     </div>
   </div>
 </div>
