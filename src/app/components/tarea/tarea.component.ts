@@ -1,5 +1,5 @@
-import { CdkDragDrop } from '@angular/cdk/drag-drop';
-import { Component } from '@angular/core';
+import { CdkDragDrop, moveItemInArray } from '@angular/cdk/drag-drop';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-tarea',
