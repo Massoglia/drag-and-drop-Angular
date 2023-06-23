@@ -10,6 +10,7 @@ export class TareaComponent implements OnInit {
 
   todo: string[] = ['Programacion', 'Ingles', 'Testing Manual'];
   progress: string[] = [];
+  done: string[] = [];
 
   constructor() { }
 
