@@ -13,6 +13,7 @@ export class TareaComponent implements OnInit {
   done: string[] = [];
 
   tarea = '';
+  agregarTarea = '';
 
   constructor() { }
 
