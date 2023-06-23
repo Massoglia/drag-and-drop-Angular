@@ -12,6 +12,8 @@ export class TareaComponent implements OnInit {
   progress: string[] = [];
   done: string[] = [];
 
+  tarea = '';
+
   constructor() { }
 
   ngOnInit(): void {
