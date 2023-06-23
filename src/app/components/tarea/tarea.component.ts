@@ -32,6 +32,12 @@ export class TareaComponent implements OnInit {
   }
 
 agregarTarea(){
+
+  if(this.tarea === ''){
+        return;
+  }
+
+
   this.todo.push(this.tarea);
   this.tarea = '';
 }
