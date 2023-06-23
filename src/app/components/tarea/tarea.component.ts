@@ -13,7 +13,7 @@ export class TareaComponent implements OnInit {
   done: string[] = [];
 
   tarea = '';
-  agregarTarea = '';
+
 
   constructor() { }
 
@@ -31,6 +31,8 @@ export class TareaComponent implements OnInit {
     }
   }
 
-
+agregarTarea(){
+  this.todo.push(this.tarea);
+}
 
 }
